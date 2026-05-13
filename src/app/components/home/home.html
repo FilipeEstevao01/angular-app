@@ -1,3 +1,14 @@
 <p>Oi do video</p>
 
-<button [id]="" (click)="atualizaBoleano()">Clique aqui</button>
+<button (click)="submit()">clique</button>
+
+@if(deveMostrarTitulo){
+    <h1>Meu Titolo</h1>
+} @else if (name == "Filipe"){
+    <h1>Meu titolo para filipe</h1>
+}
+@else {
+    <h1>Nao foi verdadeiro</h1>
+} 
+    
+

@@ -7,9 +7,13 @@ import { Component } from '@angular/core';
   styleUrl: './home.css',
 })
 export class Home {
-  meuBooleano = false;
-
-  atualizaBoleano() {
-    this.meuBooleano = true;
+  name = 'Filipe';
+  idButton = 'button';
+deveMostrarTitulo = false;
+ // atualizaBoleano() {
+ //   this.meuBooleano = true;
+//}
+submit() {
+  console.log('clicou');
 }
 }
